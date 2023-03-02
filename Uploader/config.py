@@ -35,9 +35,9 @@ logging.basicConfig(
 class Config(object):
     WEBHOOK = os.environ.get("BOT_TOKEN", False)
     # Get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6189961132:AAF43hjYpPfF3wrIbxHu_MlWRCFQqHl6QLE")
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", 12345))
+    API_ID = int(os.environ.get("API_ID", 16724640))
     API_HASH = os.environ.get("API_HASH")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
@@ -45,11 +45,11 @@ class Config(object):
     # File /video download location
     DOWNLOAD_LOCATION = "./DOWNLOADS"
 
-    MEGA_EMAIL = os.environ.get("MEGA_EMAIL", "None")
+    MEGA_EMAIL = os.environ.get("MEGA_EMAIL", "ammatasirine@gmail.com")
     # If deploying on vps edit the above value as example := Mega_email = "Your-Mega_email-inside-inverted-commas."
 
     # This is not necessary! Enter your mega password only if you have a mega.nz account with pro/business features.
-    MEGA_PASSWORD = os.environ.get("MEGA_PASSWORD", "None")
+    MEGA_PASSWORD = os.environ.get("MEGA_PASSWORD", "zVjycCu7Uzxwf4N")
     # If deploying on vps edit the above value as example := Mega_password = "Your-Mega_password-inside-inverted-commas."
     # Telegram maximum file upload size
     TG_MAX_FILE_SIZE = 4194304000
